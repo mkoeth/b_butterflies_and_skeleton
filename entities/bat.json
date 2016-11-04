@@ -1,0 +1,51 @@
+{
+  "minecraft:entity": {
+    "version": 0.1,
+
+    "component_groups": {
+    },
+
+    "components": {
+      "minecraft:identifier": {
+        "id": "minecraft:bat"
+      },
+      "minecraft:type_family": {
+        "family":["bat"]          
+      },
+     "minecraft:collision_box": {
+      "width": 10,
+      "height": 9
+     },
+  "minecraft:rideable": {
+          "seat_count": 9,
+          "interact_text": "action.interact.mount",
+          "seats": {
+            "position": [0.0, 0.63, 0.0]
+          }        
+        },
+        "minecraft:item_controllable": {
+          "control_items": "stick"
+        },
+        "minecraft:behavior.controlled_by_player": {
+          "priority": 5
+        },
+     "minecraft:fall_damage": {
+       "value": 0.0
+      },
+
+      "minecraft:movement": {
+        "value": 0.0000000001,
+        "max": 0.0000000001
+      },
+      "minecraft:health": {
+        "value": 50,
+        "max": 60
+      },
+       "minecraft:nameable": {
+	    }
+    },
+
+    "events": {
+    }
+  }
+}

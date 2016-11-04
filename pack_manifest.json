@@ -1,0 +1,16 @@
+{
+  "header": {
+    "pack_id": "c4f6dfcd-766f-4007-92bf-8465d98f559f",
+    "name": "§l§bButterflies and skeletons!",
+  	"description": "by §bMax!§r§aYouTube §ehabekeinen §aTwitter §e@maxgernlinden",
+    "packs_version": "0.0.1",
+    "modules": [
+      {
+        "version": "0.0.1",
+        "uuid": "60ed064a-002a-44d2-b769-5465dc831a96",
+
+        "type": "data"
+      }
+    ]
+  }
+}
